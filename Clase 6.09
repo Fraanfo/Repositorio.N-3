@@ -1,0 +1,31 @@
+install.packages("ggplot2")
+
+library("ggplot2")
+
+dat <- data.frame(
+  time = factor (c("Lunch","Dinner"), levels=c("Lunch","Dinner")),
+  total_bill = c(14.89, 17.23)
+)
+dat
+
+ggplot(data=dat, aes(x=time, y=total_bill)) +
+  geom_bar(stat="identity")
+
+a = 2
+a
+a<-3
+a
+b<-4
+b
+a<b
+a>=b
+a>b
+a<=b
+a==b
+c="Hola"
+c
+TRUE
+!TRUE
+TRUE||FALSE
+TRUE && FALSE
+
